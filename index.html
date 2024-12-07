@@ -1,605 +1,1055 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="My online, personal portfolio" />
+        <meta name="author" content="Robby" />
+        <title>Portfolio | Robby</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">My Portfolio</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#skills">Skills</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead bg-primary text-white text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Avatar Image-->
+                <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="avatar" />
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Robby</h1>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-0">Software Developer - Backend Development Focus - Occasional Front-Ender - Unit Testing Advocate - Game Development Hobbyist - System Design Aficionado - Open-Source Enthusiast - Split-Keyboard Fanatic</p>
+            </div>
+        </header>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio" id="portfolio">
+            <div class="container">
+                <!-- Portfolio Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Portfolio Grid Items-->
+                <div class="row justify-content-center g-2 align-items-center">
+                    <!-- Portfolio Item 15-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#asteroids">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/asteroids.gif" alt="Asteroids"/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 14-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#liskovSubstitutionPrinciple">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/lsp-motion-canvas.gif" alt="Liskov Substitution Principle"/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 13-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#personalLazyVimConfig">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/personal-lazyvim-config.jpg" alt="Personal LazyVim Configuration"/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 12-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#fakerAndCsv">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/faker-and-csv.jpg" alt="Faker And CSV"/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 11-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#reactMemeGenerator">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/react-meme-gen.png" alt="React Meme Generator"/>
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 10-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#bookReview">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/book-review.png" alt="Book Review Website with Python and Flask" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 9-->
+                    <div class="col-md-6 col-lg-4 mb-5">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#betterPwGen">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/better-pw-gen.png" alt="Random Password Generator" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 8-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#currencyConverter">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/currency-converter.png" alt="Foreign Exchange Converter" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 7-->
+                    <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#dogsCatsChuckNorrisFacts">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/dogs-cats-chuck-norris.png" alt="Dogs, Cats And Chuck Norris Facts" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 6-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#typewriter">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/typewriter.png" alt="Typewriter Simulator" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 5-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#rockPaperScissors">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/rock-paper-scissors.png" alt="Rock, Paper and Scissors" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 4-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#basicInfo">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/ip-address.png" alt="Basic Info" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 3-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#todoAppInReact">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/todo-react.png" alt="TODO App in React" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 2-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#randomElementFacts">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/random-element-facts.png" alt="Random Facts about Elements" />
+                        </div>
+                    </div>
+                    <!-- Portfolio Item 1-->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#eightBall">
+                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid border-portfolio-item" src="assets/img/portfolio/eight-ball-react.png" alt="Magic 8-Ball" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About Section-->
+        <section class="page-section bg-primary text-white mb-0" id="about">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="row">
+                    <!-- <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div> -->
+                    <!-- <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div> -->
+                <div class="col-md-12 mx-auto">
+                    <p class="lead">My name is Robby, and I am very passionate about software development. I graduated with a Bachelor of Science Honours degree in Chemistry, along with a Minor in Applied Computer Science. At the above "Portfolio" section, you can find a lot of my personal projects that I worked on in my free time. Some of them even have a live working version that you can play around with. I always look forward to learning new languages, frameworks, and technologies that are related to programming. If you want to get in touch with me, my email is: <em>robby.renz@yahoo.com</em>. And the link to my LinkedIn profile is at the bottom of this page.</p>
+                </div>
+                </div>
+            </div>
+        </section>
 
-<head>
+        <!-- Skills Section -->
+        <section class="page-section" id="skills">
+            <div class="container">
+                <!-- Skills Section Heading -->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
+                <!-- Icon Divider -->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- Skills Section List -->
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-4 mb-5">
+                        <p class="lead text-center text-uppercase mb-4">Programming Languages</p>
+                        <ul class="lead mb-0">
+                            <li>Java</li>
+                            <li>TypeScript/JavaScript</li>
+                            <li>Terraform</li>
+                            <li>Lua</li>
+                            <li>Python</li>
+                            <li>C#</li>
+                            <li>C</li>
+                            <li>R</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-4 mb-5">
+                        <p class="lead text-center text-uppercase mb-4">Frameworks</p>
+                        <ul class="lead mb-0">
+                            <li>Quarkus</li>
+                            <li>Deno</li>
+                            <li>Node.js</li>
+                            <li>React.js</li>
+                            <li>Flask</li>
+                            <li>Phaser</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-4 mb-5">
+                        <p class="lead text-center text-uppercase mb-4">Databases</p>
+                        <ul class="lead mb-0">
+                            <li>MySQL</li>
+                            <li>ElasticSearch</li>
+                            <li>Redis</li>
+                            <li>DynamoDB</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <!-- end of row -->
+            <div class="container">
+                <!-- start of another row -->
+                <div class="row justify-content-center">
+                    <div class="col-mg-12 col-lg-4 mb-5">
+                        <p class="lead text-center text-uppercase mb-4">Other Technologies</p>
+                        <ul class="lead mb-0">
+                            <li>Git</li>
+                            <li>Bitbucket</li>
+                            <li>GitHub</li>
+                            <li>Jenkins</li>
+                            <li>Grafana</li>
+                            <li>Logz.io</li>
+                            <li>Datadog</li>
+                            <li>GitHub Actions</li>
+                            <li>PowerShell</li>
+                            <li>SQLAlchemy</li>
+                            <li>Docker</li>
+                            <li>JQuery</li>
+                        </ul>
+                    </div>
+                    <div class="col-mg-12 col-lg-4 mb-5">
+                        <p class="lead text-center text-uppercase mb-4">Cloud</p>
+                        <ul class="lead mb-0">
+                            <li>Amazon Web Services (AWS)</li>
+                            <li>Google Cloud Platform (GCP)</li>
+                            <li>Heroku</li>
+                        </ul>
+                    </div>
+                    <div class="col-mg-12 col-lg-4 mb-5">
+                        <p class="lead text-center text-uppercase mb-4">Text Editors/IDEs</p>
+                        <ul class="lead mb-0">
+                            <li>Neovim</li>
+                            <li>Vim</li>
+                            <li>IntelliJ IDEA</li>
+                            <li>DataGrip</li>
+                            <li>DBeaver</li>
+                            <li>Rider</li>
+                            <li>Visual Studio</li>
+                            <li>Visual Studio Code</li>
+                            <li>Atom</li>
+                            <li>Sublime Text 3</li>
+                            <li>PyCharm</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- end of row -->
+            </div>
+            <div class="container">
+                <!-- start of another row -->
+                <div class="row justify-content-center">
+                    <div class="col-md-12 col-lg-4 mb-5">
+                        <p class="lead text-center text-uppercase mb-4">Markup Languages</p>
+                        <ul class="lead mb-0">
+                            <li>HTML5</li>
+                            <li>CSS</li>
+                            <li>Markdown</li>
+                            <li>Mustache</li>
+                            <li>Jinja2</li>
+                            <li>LaTeX</li>
+                            <li>Sass</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-12 col-lg-4 mb-5">
+                        <p class="lead text-center text-uppercase mb-4">Linux</p>
+                        <ul class="lead mb-0">
+                            <li>Ubuntu</li>
+                            <li>Manjaro</li>
+                            <li>Bash</li>
+                            <li>Zsh</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="portfolio" content="">
-  <meta name="Robby Renz" content="">
-
-  <title>Freelancer - Start Bootstrap Theme</title>
-
-  <!-- Custom fonts for this theme -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-
-  <!-- Theme CSS -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
-
-</head>
-
-<body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">My Portfolio</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        Menu
-        <i class="fas fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-          </li>
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- Masthead -->
-  <header class="masthead bg-primary text-white text-center">
-    <div class="container d-flex align-items-center flex-column">
-
-      <!-- Masthead Avatar Image -->
-      <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="">
-
-      <!-- Masthead Heading -->
-      <h1 class="masthead-heading text-uppercase mb-0">Robby Renz</h1>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+        </section>
+        <footer class="footer text-center">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Location-->
+                    <!-- <div class="col-lg-4 mb-5 mb-lg-0"> -->
+                    <!--     <h4 class="text-uppercase mb-4">Location</h4> -->
+                    <!--     <p class="lead mb-0"> -->
+                    <!--         2215 John Daniel Drive -->
+                    <!--         <br /> -->
+                    <!--         Clark, MO 65243 -->
+                    <!--     </p> -->
+                    <!-- </div> -->
+                    <!-- Footer Social Icons-->
+                    <div class="col-lg-12 mb-5 mb-lg-0">
+                        <h4 class="text-uppercase mb-4">You can find me on:</h4>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/robbyrenz" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/robby-a-25b999185" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+                    </div>
+                    <!-- Footer About Text-->
+                    <!-- <div class="col-lg-4"> -->
+                    <!--     <h4 class="text-uppercase mb-4">About Freelancer</h4> -->
+                    <!--     <p class="lead mb-0"> -->
+                    <!--         Freelance is a free to use, MIT licensed Bootstrap theme created by -->
+                    <!--         <a href="http://startbootstrap.com">Start Bootstrap</a> -->
+                    <!--         . -->
+                    <!--     </p> -->
+                    <!-- </div> -->
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright Section-->
+        <div class="copyright py-4 text-center text-white">
+            <div class="container">
+                Copyright &copy; 2024 Built using <a target="_blank" href="https://github.com/StartBootstrap/startbootstrap-freelancer">Start Bootstrap - Freelancer</a>.
+            </div>
         </div>
-        <div class="divider-custom-line"></div>
-      </div>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio Modal 14-->
+        <div class="portfolio-modal modal fade" id="asteroids" tabindex="-1" aria-labelledby="asteroids" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Asteroids</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/asteroids.gif" alt="Asteroids" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I decided to do a little bit of game development. I opted to choose <a href="https://phaser.io/" target="_blank">Phaser</a> as the game framework since it looks easy to use, has many examples, and has great documentation!<br/><br/>I started with something simple by attempting to build the classic "Asteroids" game. Thanks to looking at other existing examples, I was able to split the game into different scenes (splash screen, main menu, main game, etc.,) and I implemented the movement of the ship, including with drag!<br/><br/>It is still a work-in-progress though, and I do plan on adding in asteroids of different sizes that enter the screen from different directions as well as enemy ships that attempt to shoot at the player.</p>
 
-      <!-- Masthead Subheading -->
-      <p class="masthead-subheading font-weight-light mb-0">Software Developer - Full Stack Developer</p>
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/asteroids-phaser" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    </div>
-  </header>
-
-  <!-- Portfolio Section -->
-  <section class="page-section portfolio" id="portfolio">
-    <div class="container">
-
-      <!-- Portfolio Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="divider-custom-line"></div>
-      </div>
+        <!-- Portfolio Modal 14-->
+        <div class="portfolio-modal modal fade" id="liskovSubstitutionPrinciple" tabindex="-1" aria-labelledby="liskovSubstitutionPrinciple" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Liskov Substitution Principle</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/lsp-motion-canvas.gif" alt="Liskov Substitution Principle" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Out of all the principles defined in SOLID, my favourite one is what "L" represents: Liskov Substitution Principle, or LSP for short; basically, a client using a base class must be able to use its derived class without ever knowing the difference. I guess part of the reason why I'm so fascinated by it is because I have seen first-hand the consequences and unnecessarily increase in complexity when one violates this principle.<br/><br/>On a related note, I discovered a way to make presentations/animations using code through an amazing piece of open-source software called <a href="https://motioncanvas.io/" target="_blank">Motion Canvas</a>.<br/><br/>And when I was tasked to give a presentation about the LSP in my workplace, I decided to try my luck and learn how to use this library! And the result is what you see here in the link to this GitHub repo! I have to admit, highlighting and selecting a range of code snippets were super trivial to do thanks to the APIs that this library exposes. I highly recommend it!</p>
 
-    </div>
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/liskov-substitution-principle" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    <!-- Page Content -->
-    <div class="container">
-
-      <!-- Page Heading -->
-      <!-- <h1 class="my-4">Page Heading
-        <small>Secondary Text</small>
-      </h1> -->
-      <br>
-
-      <!-- Project One -->
-      <div class="row">
-        <div class="col-md-7">
-          <a target="_blank" href="https://github.com/robbyrenz/react-meme-generator">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/react-meme-gen.png" alt="react-meme-generator">
-          </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h3>React Meme Generator</h3>
-          <p>Ever wanted to make your own memes? Well, now you can with the help of my web application! Created with the help of React.js, this web application uses the Fetch API to get random meme images and also lets you customize the text in those images! Have fun!</p>
-		  <a class="btn btn-primary" href="https://github.com/robbyrenz/react-meme-generator" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+        <!-- Portfolio Modal 13-->
+        <div class="portfolio-modal modal fade" id="personalLazyVimConfig" tabindex="-1" aria-labelledby="personalLazyVimConfig" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Personal LazyVim Configuration</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/personal-lazyvim-config.jpg" alt="Personal LazyVim Configuration" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I love Neovim! I love the keyboard-centric way to move around the text editor, and all the open-source plugins that I can extend it with. Using Neovim really helps me remain in a flow state.<br/><br/>However, the default right-out-of-the-box configuation of Neovim, while functional, leaves a lot to be desired, and I needed a quick and feasible way to quickly get up to speed. Basically, I wanted to worry less about configuring Neovim and focus more on the programs that I'm making in Neovim.<br/><br/>Luckily, that's where <a href="https://github.com/LazyVim/LazyVim" target="_blank">LazyVim</a> comes in, an amazing pre-configured Neovim setup with sane defaults, yet gives you the ability to extend it to your heart's content. This repository holds my own personal LazyVim configuration that I use and maintain as my daily driver, essentially making Neovim my own personal development environment (PDE).<br/><br/>I will keep updating this repository, by adding more color themes, updating plugins, etc., as my needs change.</p>
+
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/personal-lazyvim-config" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- /.row -->
+        <!-- Portfolio Modal 12-->
+        <div class="portfolio-modal modal fade" id="fakerAndCsv" tabindex="-1" aria-labelledby="fakerAndCsv" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Faker And CSV</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/faker-and-csv.jpg" alt="Faker And CSV" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">I created a really simple Java program that can create a bunch of fake data and save said data into a csv file, along with its headers.<br/><br/>The idea of this program is to provide a (relatively) easy way to populate an empty SQL table with test data, should the need arises. I used the Faker library to generate the dummy data, and the Apache Commons CSV library in order to write said data into a csv file.</p>
 
-      <hr>
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/faker-and-csv" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-      <!-- Project Two -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/book-review-website" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/book-review.png" alt="book-review-website">
-          </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h3>Book Review Website With Python and Flask</h3>
-          <p>My most ambitious project! This simple web application lets you register for an account, log in, and then you can search books and leave reviews for said books. Furthermore, you can see the reviews for the book left by other registered users. In addition, this app also shows the average rating and the total number of ratings the book got from Goodreads. Finally, this app can also function as an API, whereby users can make an appropriate GET request to a certain route of my website, and this returns a JSON response with a particular information that the user asked for. This app was made with the help of Python, Flask, HTML, Jinja2, CSS, PostgreSQL, SQLAlchemy and the Goodreads API.</p>
-		  <a class="btn btn-primary" href="https://github.com/robbyrenz/book-review-website" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+        <!-- Portfolio Modal 11-->
+        <div class="portfolio-modal modal fade" id="reactMemeGenerator" tabindex="-1" aria-labelledby="reactMemeGenerator" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">React Meme Generator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/react-meme-gen.png" alt="React Meme Generator" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Ever wanted to make your own memes? Well, now you can with the help of my web application! Created with the help of React.js, this web application uses the Fetch API to get random meme images and also lets you customize the text in those images! Have fun!</p>
+
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/react-meme-generator" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- /.row -->
+        <!-- Portfolio Modal 10-->
+        <div class="portfolio-modal modal fade" id="bookReview" tabindex="-1" aria-labelledby="bookReview" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Book Review Website with Python and Flask</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/book-review.png" alt="Book Review Website with Python and Flask" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">One of my first big/ambitious project! This simple web application lets you register for an account, log in, and then you can search books and leave reviews for said books. Furthermore, you can see the reviews for the book left by other registered users. In addition, this app also shows the average rating and the total number of ratings the book got from Goodreads. Finally, this app can also function as an API, whereby users can make an appropriate GET request to a certain route of my website, and this returns a JSON response with a particular information that the user asked for. This app was made with the help of Python, Flask, HTML, Jinja2, CSS, PostgreSQL, SQLAlchemy and the Goodreads API.</p>
 
-      <hr>
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/book-review-website" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-      <!-- Project Three -->
-      <!-- <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h3>Robot Dating Simulator</h3>
-          <p>Just some dynamic website that I made just for fun. This website lets you see which sort of users (robots, kittens, advanced robots and monsters) are registered in this mock dating website. You can click on each user to view their profile. The different type of users and their avatars were randomly generated with the help of two different APIs. Maybe add more info here...</p>
-		  <a class="btn btn-primary" href="#">View on GitHub <i class="fab fa-github"></i></a>
+        <!-- Portfolio Modal 9-->
+        <div class="portfolio-modal modal fade" id="betterPwGen" tabindex="-1" aria-labelledby="betterPwGen" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Random Password Generator</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/better-pw-gen.png" alt="Random Password Generator" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Ever needed a program that can randomly generate a password for you? If so, then this Python program was made just for you! It also lets you specify the length of password that you want.</p>
+
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/better-password-generator" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div> -->
-      <!-- /.row -->
+        <!-- Portfolio Modal 8-->
+        <div class="portfolio-modal modal fade" id="currencyConverter" tabindex="-1" aria-labelledby="currencyConverter" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Foreign Exchange Converter</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/currency-converter.png" alt="Foreign Exchange Converter" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Coded with Python and the micro web framework Flask, this web app lets you find the recent conversion rate for multiple currencies from 1 EUR. This app uses the Fixer API in order to get the latest conversion rates.</p>
 
-      <!-- <hr> -->
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/currency-exchange-rate" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-      <!-- Project Four -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/better-password-generator" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/better-pw-gen.png" alt="better-password-generator">
-          </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h3>Random Password Generator</h3>
-          <p>Ever needed a program that can randomly generate a password for you? If so, then this Python program was made just for you! It also lets you specify the length of password that you want.</p>
-		  <a class="btn btn-primary" href="https://github.com/robbyrenz/better-password-generator" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+        <!-- Portfolio Modal 7-->
+        <div class="portfolio-modal modal fade" id="dogsCatsChuckNorrisFacts" tabindex="-1" aria-labelledby="dogsCatsChuckNorrisFacts" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Dogs, Cats And Chuck Norris Facts</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/dogs-cats-chuck-norris.png" alt="Dogs, Cats And Chuck Norris Facts" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">This dynamic website was made just for fun and serves no real purpose other than to make you laugh <i class="far fa-laugh-beam"></i>. This website lets you choose which picture, a dog or a cat, to show you along with an accompanying fact about Chuck Norris. This project uses three different APIs in order to achieve its purpose. If you're lucky, the picture shown might perfectly match the random Chuck Norris fact. <strong>WARNING</strong>: some of the facts shown might not be appropriate for all users; you have been warned! <b>Note</b>: I have no control of which sort of facts the JavaScript code retrieves from the Chuck Norris API.</p>
+
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/dogs-cats-chuck-norris" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://robbyrenz.github.io/dogs-cats-chuck-norris" target="_blank">View live <i class="fab fa-firefox"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- /.row -->
+        <!-- Portfolio Modal 6-->
+        <div class="portfolio-modal modal fade" id="typewriter" tabindex="-1" aria-labelledby="typewriter" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Typewriter Simulator with Vanilla JavaScript</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/typewriter.png" alt="Typewriter Simulator" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Made with just HTML, CSS and pure Vanilla JavaScript, this website mimics the look, sound and feel of a good old-fashioned typewriter. Whenever you press a key on your keyboard, a key-press sound is played and the corresponding key gets highlighted on the typewriter. Check out the live working version of this website by clicking on the button below. Absolutely no frameworks were used to make this website. Also, CSS variables, CSS transitions, flexbox, to name a few, were used in the making of this website.</p>
 
-      <hr>
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <a class="btn btn-primary w-100" target="_blank" href="https://github.com/robbyrenz/typewriter-new">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <a class="btn btn-primary w-100" target="_blank" href="https://robbyrenz.github.io/typewriter-new/">View live <i class="fab fa-chrome"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-      <!-- Project Five -->
-      <!-- <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h3>Learning Log With Django</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+        <!-- Portfolio Modal 5-->
+        <div class="portfolio-modal modal fade" id="rockPaperScissors" tabindex="-1" aria-labelledby="rockPaperScissors" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Rock, Paper and Scissors</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/rock-paper-scissors.png" alt="Rock, Paper and Scissors" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">Just some website that lets you play the classic game rock, paper, scissor with the computer. One of my first projects ever! Made using HTML, CSS, Vanilla JavaScript and Bootstrap 4. Check out my live version of this project by clicking on the button below for a quick match with the computer!</p>
+
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <a class="btn btn-primary w-100" target="_blank" href="https://github.com/robbyrenz/rock-paper-scissors">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <a class="btn btn-primary w-100" target="_blank" href="https://robbyrenz.github.io/rock-paper-scissors/">View live <i class="fab fa-firefox"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-4 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div> -->
-      <!-- /.row -->
+        <!-- Portfolio Modal 4-->
+        <div class="portfolio-modal modal fade" id="basicInfo" tabindex="-1" aria-labelledby="basicInfo" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Basic Info About Your Computer</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/ip-address.png" alt="Basic Info" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A Python program that states the user his/her public ip address, the city and country they are located, the coordinates and the name of their internet service provider. This program makes a request to the website ifconfig.co, a public API and it returns a JSON response. Python was then used to extract and display the information in an appropriately formatted manner. <strong>Note</strong>: the screenshot shows certain parts being blacked out; this was on purpose as they are private information <i class="far fa-smile-beam"></i>.</p>
 
-      <!-- <hr> -->
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" target="_blank" href="https://github.com/robbyrenz/basic-info">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-      <!-- Project Six -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/currency-exchange-rate" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/currency-converter.png" alt="currency-exchange-rate">
-          </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h3>Foreign Exchange Converter with Python and the Fixer API</h3>
-          <p>Coded with Python and the micro web framework Flask, this web app lets you find the recent conversion rate for multiple currencies from 1 EUR. This app uses the Fixer API in order to get the latest conversion rates.</p>
-          <a class="btn btn-primary" href="https://github.com/robbyrenz/currency-exchange-rate" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+        <!-- Portfolio Modal 3-->
+        <div class="portfolio-modal modal fade" id="todoAppInReact" tabindex="-1" aria-labelledby="todoAppInReact" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Todo App made with React.js</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/todo-react.png" alt="TODO App in React" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A web app that lets you type in your todo's and you can then tick them off if you want. Made using React.js, and utilizes the relationship between parent-child components, conditional styling, props and state, among other things.</p>
+
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/todo-app-react" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <!-- /.row -->
+        <!-- Portfolio Modal 2-->
+        <div class="portfolio-modal modal fade" id="randomElementFacts" tabindex="-1" aria-labelledby="randomElementFacts" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Random Element Facts</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/random-element-facts.png" alt="TODO App in React" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A web app that renders a random element, along with some of its facts and features, whenever you click the random button. Made using React.js.</p>
 
-      <hr>
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/random-element-facts" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-      <!-- Project Seven -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/dogs-cats-chuck-norris" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/dogs-cats-chuck-norris.png" alt="dogs-cats-chuck-norris">
-          </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-md-5">
-          <h3>Dogs, Cats and Chuck Norris Facts</h3>
-          <p>This dynamic website was made just for fun and serves no real purpose other than to make you laugh <i class="far fa-laugh-beam"></i>. This website lets you choose which picture, a dog or a cat, to show you along with an accompanying fact about Chuck Norris. This project uses three different APIs in order to achieve its purpose. If you're lucky, the picture shown might perfectly match the random Chuck Norris fact. <strong>WARNING</strong>: some of the facts shown might not be appropriate for all users; you have been warned! <b>Note</b>: I have no control of which sort of facts the JavaScript code retrieves from the Chuck Norris API.</p>
-          <a class="btn btn-primary" href="https://github.com/robbyrenz/dogs-cats-chuck-norris" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
-          <a class="btn btn-primary" href="https://robbyrenz.github.io/dogs-cats-chuck-norris" target="_blank">View live <i class="fab fa-firefox"></i></a>
-        </div>
-      </div>
-      <!-- /.row -->
+        <!-- Portfolio Modal 1-->
+        <div class="portfolio-modal modal fade" id="eightBall" tabindex="-1" aria-labelledby="eightBall" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-body text-center pb-5">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-8">
+                                    <!-- Portfolio Modal - Title-->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Magic 8-Ball</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
+                                    <!-- Portfolio Modal - Image-->
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/eight-ball-react.png" alt="Magic 8-Ball" />
+                                    <!-- Portfolio Modal - Text-->
+                                    <p class="mb-4">A web application that mimics the famous Magic 8-Ball toy. Just press the spacebar to get a random answer from the Magic 8-Ball. This project was made using HTML, CSS and React.js. CSS Flexbox was used for the layout of the web page.</p>
 
-      <hr>
+                                    <div class="container">
+                                        <div class="row justify-content-center align-items-center">
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <a class="btn btn-primary w-100" href="https://github.com/robbyrenz/8-ball-react" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
+                                            </div>
+                                            <div class="col-md-12 col-lg-6 mb-3">
+                                                <button class="btn btn-primary w-100" data-bs-dismiss="modal">
+                                                    <i class="fas fa-xmark fa-fw"></i>
+                                                    Close Window
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
-      <!-- Project Eight -->
-      <div class="row">
-
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/typewriter-new" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/typewriter.png" alt="typewriter-simulation">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Typewriter Simulator with Vanilla JavaScript</h3>
-          <p>Made with just HTML, CSS and pure Vanilla JavaScript, this website mimics the look, sound and feel of a good old-fashioned typewriter. Whenever you press a key on your keyboard, a key-press sound is played and the corresponding key gets highlighted on the typewriter. Check out the live working version of this website by clicking on the button below. Absolutely no frameworks were used to make this website. Also, CSS variables, CSS transitions, flexbox, to name a few, were used in the making of this website.</p>
-          <a class="btn btn-primary" target="_blank" href="https://github.com/robbyrenz/typewriter-new">View on GitHub <i class="fab fa-github"></i></a>
-          <a class="btn btn-primary" target="_blank" href="https://robbyrenz.github.io/typewriter-new/">View live <i class="fab fa-chrome"></i></a>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project Nine -->
-      <!-- <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Hospital Waiting List with the help of Priority Queues in Java</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
-        </div>
-      </div> -->
-      <!-- /.row -->
-
-      <!-- <hr> -->
-
-      <!-- Project Ten -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/rock-paper-scissors" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/rock-paper-scissors.png" alt="rock-paper-scissors">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Rock, Paper and Scissors</h3>
-          <p>Just some website that lets you play the classic game rock, paper, scissor with the computer. One of my first projects ever! Made using HTML, CSS, Vanilla JavaScript and Bootstrap 4. Check out my live version of this project by clicking on the button below for a quick match with the computer!</p>
-          <a class="btn btn-primary" target="_blank" href="https://github.com/robbyrenz/rock-paper-scissors">View on GitHub <i class="fab fa-github"></i></a>
-          <a class="btn btn-primary" target="_blank" href="https://robbyrenz.github.io/rock-paper-scissors/">View live <i class="fab fa-firefox"></i></a>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project Eleven -->
-      <!-- <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Confetti Cuisine in Node.js</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
-        </div>
-      </div> -->
-      <!-- /.row -->
-
-      <!-- <hr> -->
-
-      <!-- Project Twelve -->
-      <!-- <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>PyPI Clone in Flask</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
-        </div>
-      </div> -->
-      <!-- /.row -->
-
-      <!-- <hr> -->
-
-      <!-- Project Thirteen -->
-      <!-- <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Webscraping with Python</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
-        </div>
-      </div> -->
-      <!-- /.row -->
-
-      <!-- <hr> -->
-
-      <!-- Project Fourteen -->
-      <!-- <div class="row">
-        <div class="col-md-7">
-          <a href="#">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="http://placehold.it/700x300" alt="">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>LOLCat Factory</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
-        </div>
-      </div> -->
-      <!-- /.row -->
-
-      <!-- <hr> -->
-
-      <!-- Project Fifteen -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/basic-info" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/ip-address.png" alt="basic-info-python-program">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Basic Info About Your Computer</h3>
-		  <p>A Python program that states the user his/her public ip address, the city and country they are located, the coordinates and the name of their internet service provider. This program makes a request to the website ifconfig.co, a public API and it returns a JSON response. Python was then used to extract and display the information in an appropriately formatted manner. <strong>Note</strong>: the screenshot shows certain parts being blacked out; this was on purpose as they are private information <i class="far fa-smile-beam"></i>.</p>
-          <a class="btn btn-primary" target="_blank" href="https://github.com/robbyrenz/basic-info">View on GitHub <i class="fab fa-github"></i></a>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project Sixteen -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/todo-app-react" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/todo-react.png" alt="todo-react-app">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Todo App made with React.js</h3>
-          <p>A web app that lets you type in your todo's and you can then tick them off if you want. Made using React.js, and utilizes the relationship between parent-child components, conditional styling, props and state, among other things.</p>
-          <a class="btn btn-primary" href="https://github.com/robbyrenz/todo-app-react" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project Seventeen -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/random-element-facts" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/random-element-facts.png" alt="random-element-facts">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Random Element Facts</h3>
-          <p>A web app that renders a random element, along with some of its facts and features, whenever you click the random button. Made using React.js.</p>
-          <a class="btn btn-primary" href="https://github.com/robbyrenz/random-element-facts" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-      <!-- Project Eighteen -->
-      <div class="row">
-        <div class="col-md-7">
-          <a href="https://github.com/robbyrenz/8-ball-react" target="_blank">
-            <img class="img-fluid rounded mb-3 mb-md-0" src="img/portfolio/eight-ball-react.png" alt="random-element-facts">
-          </a>
-        </div>
-        <div class="col-md-5">
-          <h3>Magic 8-Ball</h3>
-          <p>A web application that mimics the famous Magic 8-Ball toy. Just press the spacebar to get a random answer from the Magic 8-Ball. This project was made using HTML, CSS and React.js. CSS Flexbox was used for the layout of the web page.</p>
-          <a class="btn btn-primary" href="https://github.com/robbyrenz/8-ball-react" target="_blank">View on GitHub <i class="fab fa-github"></i></a>
-        </div>
-      </div>
-      <!-- /.row -->
-
-      <hr>
-
-    </div>
-    <!-- /.container -->
-
-  </section>
-
-  <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
-    <div class="container">
-
-      <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- About Section Content -->
-      <div class="row">
-        <div class="col-md-12 mx-auto">
-			<p class="lead">My name is Robby Renz, and I am very passionate about coding and programming in general. I graduated with a Bachelor of Science (Honours) in Chemistry, along with a Minor in Applied Computer Science. At the above section, you can find a lot of my personal projects that I worked on in my free time. Feel free to take a look at the source code for my projects on GitHub or, for some of my projects, you can view a live working version online. I always look forward to learning new languages, frameworks, and technologies that are related to programming. If you want to contact me for any reason, such as if you want to have a look at my resume, my email is: <em>robby.renz@yahoo.com</em>.</p>
-        </div>
-      </div>
-
-    </div>
-    <!-- /.container -->
-  </section>
-
-  <!-- Skills Section -->
-  <section class="page-section" id="skills">
-    <div class="container">
-
-      <!-- Skills Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Skills</h2>
-
-      <!-- Icon Divider -->
-      <div class="divider-custom">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
-      <!-- Skills Section List -->
-      <div class="row">
-        <div class="col-md-4">
-          <p class="lead text-center text-uppercase mb-4">Programming</p>
-          <ul class="lead mb-0">
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>C</li>
-            <li>R</li>
-            <li>TypeScript</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <p class="lead text-center text-uppercase mb-4">Technologies/Frameworks</p>
-          <ul class="lead mb-0">
-            <li>React.js</li>
-            <li>Flask</li>
-            <li>Node.js</li>
-            <li>Git</li>
-            <li>SQLAlchemy</li>
-            <li>PostgreSQL</li>
-            <li>Bootstrap</li>
-            <li>Docker</li>
-            <li>JQuery</li>
-            <!-- <li>Django?</li> -->
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <p class="lead text-center text-uppercase mb-4">Markup Languages</p>
-          <ul class="lead mb-0">
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>Markdown</li>
-            <li>Jinja2</li>
-            <li>LaTeX</li>
-            <li>Sass</li>
-          </ul>
-        </div>
-      </div>
-      <!-- end of row -->
-
-
-      <div class="container">
-        <!-- start of another row -->
-        <div class="row">
-
-          <div class="col-md-6">
-            <p class="lead text-center text-uppercase mb-4">Text Editors</p>
-            <ul class="lead mb-0">
-              <li>Vim</li>
-              <li>Visual Studio Code</li>
-              <li>Atom</li>
-              <li>Sublime Text 3</li>
-              <li>PyCharm</li>
-          </div>
-
-          <div class="col-md-6">
-            <p class="lead text-center text-uppercase mb-4">Linux</p>
-            <ul class="lead mb-0">
-              <li>Ubuntu</li>
-              <li>Manjaro</li>
-              <li>Bash</li>
-              <li>ZSH</li>
-            </ul>
-          </div>
-
-        </div>
-
-        <!-- end of row -->
-      </div>
-
-
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-
-        <!-- Footer Location -->
-<!--         <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Location</h4>
-          <p class="lead mb-0">2215 John Daniel Drive
-            <br>Clark, MO 65243</p>
-        </div>
- -->
-        <!-- Footer Social Icons -->
-        <div class="col-lg-12 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">You can find me on GitHub here:</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/robbyrenz" target="_blank">
-            <i class="fab fa-fw fa-github"></i>
-          </a>
-          <!-- <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-twitter"></i>
-          </a> -->
-          <!-- <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-linkedin-in"></i>
-          </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-codepen"></i>
-          </a> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <!-- Footer About Text -->
-<!--         <div class="col-lg-4">
-          <h4 class="text-uppercase mb-4">About Freelancer</h4>
-          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
-        </div>
- -->
-      </div>
-    </div>
-  </footer>
-
-  <!-- Copyright Section -->
-  <section class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small>Original Bootstrap theme created by <a target="_blank" href="http://startbootstrap.com">Start Bootstrap</a>, modified by Robby Renz</small>
-    </div>
-  </section>
-
-  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
-    </a>
-  </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <!-- <script src="js/jqBootstrapValidation.js"></script> -->
-  <!-- <script src="js/contact_me.js"></script> -->
-
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
-
-</body>
-
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
